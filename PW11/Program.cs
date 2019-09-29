@@ -10,6 +10,13 @@ namespace PW11
     {
         static void Main(string[] args)
         {
+            Employee employee = new Employee
+            {
+                Name = "123",
+                Vacancy = Vacancies.Boss,
+                Salary = 123123,
+                ReceiptDate = new int[] { 20,02,2019 }
+            };
         }
     }
 }
